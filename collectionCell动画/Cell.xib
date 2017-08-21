@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="Cell">
+            <rect key="frame" x="0.0" y="0.0" width="199" height="228"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="199" height="228"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="最新优惠book副本.png" translatesAutoresizingMaskIntoConstraints="NO" id="RAM-lJ-zQg">
+                        <rect key="frame" x="0.0" y="0.0" width="199" height="132"/>
+                        <color key="backgroundColor" red="1" green="0.45502950080607463" blue="0.77112151702121157" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="RAM-lJ-zQg" secondAttribute="height" multiplier="199:132" id="Chx-qe-eBx"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢乐时光美食小食" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPj-c3-OuU">
+                        <rect key="frame" x="0.0" y="147" width="199" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欢乐时光美食小食" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjv-rh-2ij">
+                        <rect key="frame" x="0.0" y="178" width="199" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="RAM-lJ-zQg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="3Jb-pf-c0X"/>
+                <constraint firstAttribute="trailing" secondItem="RAM-lJ-zQg" secondAttribute="trailing" id="3jf-Ca-kd4"/>
+                <constraint firstAttribute="trailing" secondItem="jjv-rh-2ij" secondAttribute="trailing" id="6Pg-gF-hEm"/>
+                <constraint firstItem="jjv-rh-2ij" firstAttribute="top" secondItem="MPj-c3-OuU" secondAttribute="bottom" constant="15" id="6jT-Rv-EH6"/>
+                <constraint firstAttribute="trailing" secondItem="MPj-c3-OuU" secondAttribute="trailing" id="8xn-QJ-qfl"/>
+                <constraint firstItem="jjv-rh-2ij" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="CeE-LE-cBe"/>
+                <constraint firstItem="MPj-c3-OuU" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HUk-sV-LMG"/>
+                <constraint firstItem="RAM-lJ-zQg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="ZKG-Xa-z2n"/>
+                <constraint firstItem="MPj-c3-OuU" firstAttribute="top" secondItem="RAM-lJ-zQg" secondAttribute="bottom" constant="15" id="d8B-j8-w7U"/>
+            </constraints>
+            <size key="customSize" width="199" height="228"/>
+            <point key="canvasLocation" x="-11.5" y="136"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="最新优惠book副本.png" width="132" height="132"/>
+    </resources>
+</document>
